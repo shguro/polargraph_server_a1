@@ -112,6 +112,7 @@ void changeLength(long tAl, long tBl)
         motorA.runSpeedToPosition();
         motorB.runSpeedToPosition();
       }
+      yield();
     }
   }
   
